@@ -5,6 +5,12 @@ VisualStudioVersion = 17.4.33403.182
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HDDotNetCore", "HDDotNetCore\HDDotNetCore.csproj", "{382BD19F-0D8D-45D0-B251-96326545E19E}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "FrontEnd", "FrontEnd", "{DB903B5B-F50F-4541-83AC-36960BF10D35}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "UniiTests", "UniiTests", "{390E9EC7-857B-4AE5-907B-497799B183C5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ServiceTests", "ServiceTests\ServiceTests.csproj", "{8C225D81-928D-4F1E-8F09-74C9C3E77B6B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,9 +21,17 @@ Global
 		{382BD19F-0D8D-45D0-B251-96326545E19E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{382BD19F-0D8D-45D0-B251-96326545E19E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{382BD19F-0D8D-45D0-B251-96326545E19E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8C225D81-928D-4F1E-8F09-74C9C3E77B6B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8C225D81-928D-4F1E-8F09-74C9C3E77B6B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8C225D81-928D-4F1E-8F09-74C9C3E77B6B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8C225D81-928D-4F1E-8F09-74C9C3E77B6B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{382BD19F-0D8D-45D0-B251-96326545E19E} = {DB903B5B-F50F-4541-83AC-36960BF10D35}
+		{8C225D81-928D-4F1E-8F09-74C9C3E77B6B} = {390E9EC7-857B-4AE5-907B-497799B183C5}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {463DCF57-9272-4B8B-8BC9-1E6E99605053}
