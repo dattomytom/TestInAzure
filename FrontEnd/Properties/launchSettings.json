@@ -12,7 +12,7 @@
       "commandName": "Project",
       "dotnetRunMessages": true,
       "launchBrowser": true,
-      "applicationUrl": "https://localhost:7146;http://localhost:5001",
+      "applicationUrl": "https://dev.247learn.com",
       "environmentVariables": {
         "ASPNETCORE_ENVIRONMENT": "Development"
       }
